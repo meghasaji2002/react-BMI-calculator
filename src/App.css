@@ -1,38 +1,14 @@
-.App {
-  text-align: center;
-}
+/* .bg{
+    background-image: url('https://img.freepik.com/premium-vector/fatty-men-diet-trying-control-body-weight-with-bmi-body-mass-index-control_530733-3467.jpg?w=2000');
+    background-size: cover;
+ 
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col2{
+    background-color:rgb(132, 170, 246);
 }
